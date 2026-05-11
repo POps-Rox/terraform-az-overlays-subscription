@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: tf-az-overlays-subscription
+  name: terraform-az-overlays-subscription
   description: Terraform overlay module for Azure Subscription management
   annotations:
-    github.com/project-slug: POps-Rox/tf-az-overlays-subscription
+    github.com/project-slug: POps-Rox/terraform-az-overlays-subscription
     backstage.io/techdocs-ref: dir:.
   tags:
     - terraform
@@ -12,7 +12,7 @@ metadata:
     - azure
     - platform-ops
   links:
-    - url: https://github.com/POps-Rox/tf-az-overlays-subscription
+    - url: https://github.com/POps-Rox/terraform-az-overlays-subscription
       title: GitHub Repository
       icon: github
 spec:
